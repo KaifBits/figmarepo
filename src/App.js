@@ -3,7 +3,8 @@ import bag from './market.png';
 
 function App() {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <div className="w-full h-full relative">
+    <div className="w-full  flex flex-col items-center justify-center sm:p-6 ">
       {/* Main Container */}
       <div className="h-auto flex flex-col justify-center items-center w-full md:w-1/2">
         {/* Header Section */}
@@ -95,96 +96,142 @@ function App() {
         {/* Products Grid */}
         <div className="flex flex-wrap gap-6 justify-start px-4 ">
           {/* Product Card */}
-          <div className="bg-white shadow-xl ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button className="bg-blue-400 text-white font-medium px-5 py-2 rounded-md hover:bg-blue-600 transition-colors">
-                Buy Now
-              </button>
-            </div>
-          </div>
+          <div className="bg-white shadow-xl ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    <button className="bg-blue-400 text-white font-medium px-4 py-1 rounded-xl hover:bg-blue-600 transition-colors">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+<div className="bg-white  ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
           {/* Repeat the Product Card as needed */}
           {/* ... */}
         
-          <div className="bg-white  ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button class=" text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">Buy Now</button>
-            </div>
-          </div>
-          <div className="bg-white  ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button class=" text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">Buy Now</button>
-            </div>
-          </div>
-          <div className="bg-white  ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button class=" text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">Buy Now</button>
-            </div>
-          </div>
-          <div className="bg-white  ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button class=" text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">Buy Now</button>
-            </div>
-          </div>
-          <div className="bg-white  ring-1 h-auto w-60 ring-gray-900/5 rounded-lg">
-            <div className="flex flex-col justify-center items-center space-y-4 p-4">
-              <img
-                src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-36 h-36"
-                alt="Product"
-              />
-              <p className="text-sm font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
-              <span className="text-blue-800 font-semibold">18.99$</span>
-              <button class=" text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">Buy Now</button>
-            </div>
-          </div>
+        
+<div className="bg-white ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
+          
+<div className="bg-white  ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
+         
+<div className="bg-white  ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
+<div className="bg-white  ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
+         
+<div className="bg-white  ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
+<div className="bg-white ring-1 h-60 w-48 ring-gray-900/5 rounded-lg">
+  <div className="flex flex-col justify-center items-center space-y-2 p-3">
+    <img
+      src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+      className="w-28 h-28"
+      alt="Product"
+    />
+    <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
+    <span className="text-blue-800 font-semibold text-sm">18.99$</span>
+    
+    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+  </div>
+</div>
+
           
         </div>
         
 
-        <button className="my-14 text-blue-600 font-medium px-5 py-2 rounded-md border border-blue-400">
+        <button className="my-14 text-blue-600 font-medium px-5 py-2 mb-16 rounded-md border border-blue-400">
           View All
         </button>
 
         {/* Best Price Section */}
-        <div className="w-full flex flex-col items-center space-y-6 px-4">
+        <div className="absolute bottom-28 mt-16">
+       
+        <div className="flex w-full h-72 md:space-x-7">
+        <div className="w-2/3 flex flex-col items-end space-y-6 pl-16  m-0   ">
           <div className="text-end">
             <p className="text-3xl">BEST PRICE</p>
-            <h1 className="text-5xl">Agate Phone Grip</h1>
+            <h1 className="text-5xl ">Agate Phone Grip</h1>
           </div>
           <div className='flex flex-col w-96 justify-end items-end'>
           <div className="flex items-end justify-end  w-96 space-x-4 pr-1">
@@ -195,38 +242,47 @@ function App() {
           <p className="text-end max-w-lg">
             Industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
           </p>
-          <button className="text-blue-600 font-medium w-32 px-5 py-2 rounded-md border border-blue-400 mt-16">
-            Buy Now
-          </button>
+          <button className="bg-blue-400 text-white font-medium px-5 py-2 mt-6 rounded-md hover:bg-blue-600 transition-colors">
+                Buy Now
+              </button>
 
          
           </div>
           
         
         </div>
+        <div className="  bg-white shadow-xl ring-1 md:h-64 md:w-64 sm:h-40 sm:w-40 ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
+    <div className="bg-white pt-10 shadow-xl ring-1 md:h-44 md:w-44 sm:h-28 sm:w-28 ring-gray-900/5 rounded-full flex items-center justify-center">
+      <img
+        src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
+        className="md:h-24 md:w-24 sm:h-7 sm:w-7"
+        alt="Product"
+      />
+    </div>
+  </div>  
+        </div>
+        </div>
+       
       
         {/* Bottom SVG Wave and Image */}
-        <div className="w-full h-full relative mt-14">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#22d3ee"
-              fillOpacity="1"
-              d="M0,288L48,266.7C96,245,192,203,288,176C384,149,480,139,576,149.3C672,160,768,192,864,186.7C960,181,1056,139,1152,101.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
-          <div className="absolute bottom-7 right-6 bg-white shadow-xl ring-1 h-64 w-64 ring-gray-900/5 mx-auto rounded-full">
-            <div className="flex flex-col items-center justify-center h-full">
-              <div className="bg-white pt-10 shadow-xl ring-1 h-48 w-48 ring-gray-900/5 mx-auto rounded-full flex items-center justify-center">
-                <img
-                  src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                  className="h-24 w-24"
-                  alt="Product"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className=" md:w-full md:h-full pt-52 sm:w-3/4">
+   
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#22d3ee"
+      fillOpacity="1"
+      d="M0,288L48,266.7C96,245,192,203,288,176C384,149,480,139,576,149.3C672,160,768,192,864,186.7C960,181,1056,139,1152,101.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+    ></path>
+  </svg>
+  <div className="w-full bg-cyan-400 h-6">
+
+  </div>
+  
+  
+</div>
+
       </div>
+    </div>
     </div>
   );
 }
