@@ -6,7 +6,7 @@ function App() {
     <div className="w-full h-full relative">
     <div className="w-full  flex flex-col items-center justify-center sm:p-6 ">
       {/* Main Container */}
-      <div className="h-auto flex flex-col justify-center items-center w-full md:w-1/2">
+      <div className="h-auto flex flex-col justify-center items-center w-1/2 md:w-2/3">
         {/* Header Section */}
         <div className="relative bg-gradient-to-b from-cyan-300 via-purple-200 pt-6 to-cyan-400 h-auto w-full">
           <div>
@@ -46,7 +46,7 @@ function App() {
           <div className="hidden md:block absolute right-0 top-52 rounded-l-3xl bg-white pt-10 h-72 w-[70px] border border-white"></div>
 
           {/* Featured Product */}
-          <div className="absolute right-4 top-80 sm:right-6 sm:top-36 bg-white pt-10 shadow-xl ring-1 h-80 w-72 sm:w-80 ring-gray-900/5 mx-auto sm:max-w-lg sm:rounded-2xl">
+          <div className="absolute right-4  md:top-28 sm:right-6  bg-white pt-10 shadow-xl ring-1 h-80 w-72 sm:w-80 ring-gray-900/5 mx-auto sm:max-w-lg sm:rounded-2xl">
             <button className="w-20 bg-purple-400 rounded-r-md p-1 m-0 text-white">New Lot</button>
             <div className="flex flex-col items-center space-y-4 mt-4">
               <img
