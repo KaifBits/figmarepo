@@ -252,8 +252,8 @@ function App() {
         
         </div>
          {/* Bottom circle */}
-         <div className="   shadow-xl ring-1 md:h-80 md:w-80 sm:h-48 sm:w-48 bg-inherit ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
-        <div className="  bg-white shadow-xl ring-1 md:h-64 md:w-64 sm:h-40 sm:w-40 ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
+         <div className="   shadow-xl ring-1 md:h-72 md:w-72 sm:h-48 sm:w-48 bg-inherit ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
+        <div className="  bg-white shadow-xl ring-1 md:h-60 md:w-60 sm:h-40 sm:w-40 ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
     <div className="bg-white pt-10 shadow-xl ring-1 md:h-44 md:w-44 sm:h-28 sm:w-28 ring-gray-900/5 rounded-full flex items-center justify-center">
       <img
         src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
