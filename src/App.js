@@ -1,5 +1,5 @@
 import mouse from './88221.png';
-import bag from './market.png';
+import bag from './bag.png';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
             {/* Navigation */}
             <div className="flex flex-col sm:flex-row sm:justify-between text-white font-medium px-4 sm:px-8">
               <div className="flex items-center mb-4 sm:mb-0">
-                <div className="border h-6 w-4 rounded-xl border-white mr-2"></div>
-                <p className="text-center sm:text-left">PoP Rock Crystal</p>
+                <div className="border h-6 w-4 rounded-xl border-white "></div>
+                <p className="text-center md:text-lg sm:text-left">PoP Rock Crystal</p>
               </div>
               <div className="flex flex-col sm:flex-row sm:space-x-8 space-y-2 sm:space-y-0 text-center sm:text-left">
                 <p>Home</p>
@@ -28,9 +28,9 @@ function App() {
 
             {/* Welcome Text */}
             <div className="text-white font-bold px-4 sm:px-10 space-y-2 mt-6 sm:mt-14 h-auto sm:h-48 w-full sm:w-1/2">
-              <h1 className="text-2xl font-medium">Welcome to</h1>
-              <h1 className="text-3xl">Pop Rock Crystal Shop!</h1>
-              <p className="text-xs font-mono text-black pt-2">
+              <h1 className="text-xl font-medium">Welcome to</h1>
+              <h1 className="text-2xl">Pop Rock Crystal Shop!</h1>
+              <p className="text-xs font-normal text-black pt-2">
                 Industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
               </p>
               <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mt-4">
@@ -46,12 +46,12 @@ function App() {
           <div className="hidden md:block absolute right-0 top-52 rounded-l-3xl bg-white pt-10 h-72 w-[70px] border border-white"></div>
 
           {/* Featured Product */}
-          <div className="absolute right-4  md:top-28 sm:right-6  bg-white pt-10 shadow-xl ring-1 h-80 w-72 sm:w-80 ring-gray-900/5 mx-auto sm:max-w-lg sm:rounded-2xl">
+          <div className="absolute right-4  md:top-28 sm:right-6  bg-white pt-10 shadow-xl ring-1 h-[330px] w-64 sm:w-80 ring-gray-900/5 mx-auto sm:max-w-lg sm:rounded-2xl">
             <button className="w-20 bg-purple-400 rounded-r-md p-1 m-0 text-white">New Lot</button>
             <div className="flex flex-col items-center space-y-4 mt-4">
               <img
                 src="https://i.etsystatic.com/34908462/r/il/452aff/5947428928/il_1140xN.5947428928_eamz.jpg"
-                className="w-44 h-44"
+                className="w-40 h-40"
                 alt="Product"
               />
               <p className="text-sm font-thin text-gray-400 text-center">
@@ -121,7 +121,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -139,7 +139,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -154,7 +154,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -169,7 +169,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -183,7 +183,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -198,7 +198,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -212,7 +212,7 @@ function App() {
     <p className="text-xs font-thin text-gray-400 text-center">CRYSTAL AGATE PHONE GRIP</p>
     <span className="text-blue-800 font-semibold text-sm">18.99$</span>
     
-    <button class=" text-blue-600 font-medium px-4 py-1 rounded-xl border border-blue-400">Buy Now</button>
+    <button class=" text-cyan-400 font-normal px-4 py-1 rounded-xl border border-cyan-400">Buy Now</button>
   </div>
 </div>
 
@@ -227,8 +227,8 @@ function App() {
         {/* Best Price Section */}
         <div className="absolute bottom-28 mt-16">
        
-        <div className="flex w-full h-72 md:space-x-7">
-        <div className="w-2/3 flex flex-col items-end space-y-6 pl-16  m-0   ">
+        <div className="flex w-full h-72 md:space-x-7 justify-start">
+        <div className="w-7/12 flex flex-col items-end space-y-6 pl-16  m-0    ">
           <div className="text-end">
             <p className="text-3xl">BEST PRICE</p>
             <h1 className="text-5xl ">Agate Phone Grip</h1>
@@ -251,6 +251,8 @@ function App() {
           
         
         </div>
+         {/* Bottom circle */}
+         <div className="  bg-white shadow-xl ring-1 md:h-80 md:w-80 sm:h-48 sm:w-48 bg-inherit ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
         <div className="  bg-white shadow-xl ring-1 md:h-64 md:w-64 sm:h-40 sm:w-40 ring-gray-900/5  rounded-full flex flex-col items-center justify-center">
     <div className="bg-white pt-10 shadow-xl ring-1 md:h-44 md:w-44 sm:h-28 sm:w-28 ring-gray-900/5 rounded-full flex items-center justify-center">
       <img
@@ -259,7 +261,8 @@ function App() {
         alt="Product"
       />
     </div>
-  </div>  
+  </div>
+  </div> 
         </div>
         </div>
        
